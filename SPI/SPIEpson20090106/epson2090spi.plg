@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: epson2090spi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\tang\LOCALS~1\Temp\RSPD0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/epson2090spi.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\OpenXFSV0.0.4\common\XFSField.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tang\LOCALS~1\Temp\RSPD0.tmp" 
+Creating temporary file "C:\DOCUME~1\tang\LOCALS~1\Temp\RSPD1.tmp" with contents
+[
+..\..\lib\NI_XFSMgr.lib ..\..\lib\xfs_conf.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/SPI_LQ2090.pdb" /machine:I386 /def:".\epson2090spi.def" /out:"..\..\dll\SPI_LQ2090.dll" /implib:"Release/SPI_LQ2090.lib" 
+.\Release\Createor.obj
+.\Release\epson2090spi.obj
+.\Release\printerbase.obj
+.\Release\ServiceBasic.obj
+.\Release\StdAfx.obj
+.\Release\WorkThread.obj
+.\Release\XFSField.obj
+.\Release\XFSForm.obj
+.\Release\XFSFrame.obj
+.\Release\xfshelper.obj
+.\Release\XFSMedia.obj
+.\Release\XFSSubform.obj
+.\Release\xfsToolsFunction.obj
+.\Release\epson2090spi.res
+]
+Creating command line "link.exe @C:\DOCUME~1\tang\LOCALS~1\Temp\RSPD1.tmp"
+<h3>Output Window</h3>
+Compiling...
+XFSField.cpp
+D:\OpenXFSV0.0.4\common\XFSField.cpp(616) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+   Creating library Release/SPI_LQ2090.lib and object Release/SPI_LQ2090.exp
+SPI_LQ2090.exp : warning LNK4070: /OUT:epson2090spi.dll directive in .EXP differs from output filename "..\..\dll\SPI_LQ2090.dll"; ignoring directive
+Creating temporary file "C:\DOCUME~1\tang\LOCALS~1\Temp\RSPD5.bat" with contents
+[
+@echo off
+copy ..\..\dll\SPI_LQ2090.dll c:\SPI_LQ2090.dll
+]
+Creating command line "C:\DOCUME~1\tang\LOCALS~1\Temp\RSPD5.bat"
+
+複製了         1 個檔案。
+
+
+
+<h3>Results</h3>
+SPI_LQ2090.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

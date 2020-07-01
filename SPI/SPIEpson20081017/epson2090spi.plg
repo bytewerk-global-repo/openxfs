@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: epson2090spi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/epson2090spi.res" /d "NDEBUG" /d "_AFXDLL" "E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\epson2090spi.rc"" 
+Creating temporary file "C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP479F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/epson2090spi.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\Createor.cpp"
+"E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\epson2090spi.cpp"
+"E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\myfile\printerbase.cpp"
+"E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp"
+"E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\WorkThread.cpp"
+"E:\OpenXFSV0.0.4\common\XFSField.cpp"
+"E:\OpenXFSV0.0.4\common\XFSForm.cpp"
+"E:\OpenXFSV0.0.4\common\XFSFrame.cpp"
+"E:\OpenXFSV0.0.4\common\XFSMedia.cpp"
+"E:\OpenXFSV0.0.4\common\XFSSubform.cpp"
+"E:\OpenXFSV0.0.4\common\myfile\xfshelper.cpp"
+"E:\OpenXFSV0.0.4\common\myfile\xfsToolsFunction.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP479F.tmp" 
+Creating temporary file "C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP47A0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/epson2090spi.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP47A0.tmp" 
+Creating temporary file "C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP47A1.tmp" with contents
+[
+..\..\lib\NI_XFSMgr.lib ..\..\lib\xfs_conf.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/SPI_LQ2090.pdb" /machine:I386 /def:".\epson2090spi.def" /out:"..\..\dll\SPI_LQ2090.dll" /implib:"Release/SPI_LQ2090.lib" 
+.\Release\Createor.obj
+.\Release\epson2090spi.obj
+.\Release\printerbase.obj
+.\Release\ServiceBasic.obj
+.\Release\StdAfx.obj
+.\Release\WorkThread.obj
+.\Release\epson2090spi.res
+.\Release\XFSField.obj
+.\Release\XFSForm.obj
+.\Release\XFSFrame.obj
+.\Release\XFSMedia.obj
+.\Release\XFSSubform.obj
+.\Release\xfshelper.obj
+.\Release\xfsToolsFunction.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP47A1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Createor.cpp
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\..\..\Manager\NI_XFSManager.h(101) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+epson2090spi.cpp
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\..\..\Manager\NI_XFSManager.h(101) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+printerbase.cpp
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\myfile\printerbase.cpp(334) : warning C4101: 'buf' : unreferenced local variable
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\myfile\printerbase.cpp(335) : warning C4101: 'cWritten' : unreferenced local variable
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\myfile\printerbase.cpp(355) : warning C4101: 'buf' : unreferenced local variable
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\myfile\printerbase.cpp(356) : warning C4101: 'cWritten' : unreferenced local variable
+ServiceBasic.cpp
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\..\..\Manager\NI_XFSManager.h(101) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(471) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(472) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(473) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(474) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(488) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(489) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(490) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(491) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\ServiceBasic.cpp(612) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+WorkThread.cpp
+E:\OpenXFSV0.0.4\SPI\SPIEpson20081017\..\..\Manager\NI_XFSManager.h(101) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+XFSField.cpp
+E:\OpenXFSV0.0.4\common\XFSField.cpp(616) : warning C4018: '<' : signed/unsigned mismatch
+XFSForm.cpp
+XFSFrame.cpp
+E:\OpenXFSV0.0.4\common\XFSFrame.cpp(613) : warning C4018: '<' : signed/unsigned mismatch
+E:\OpenXFSV0.0.4\common\XFSFrame.cpp(615) : warning C4018: '<' : signed/unsigned mismatch
+XFSMedia.cpp
+XFSSubform.cpp
+xfshelper.cpp
+xfsToolsFunction.cpp
+Generating Code...
+Linking...
+   Creating library Release/SPI_LQ2090.lib and object Release/SPI_LQ2090.exp
+SPI_LQ2090.exp : warning LNK4070: /OUT:epson2090spi.dll directive in .EXP differs from output filename "..\..\dll\SPI_LQ2090.dll"; ignoring directive
+Creating temporary file "C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP47A5.bat" with contents
+[
+@echo off
+copy ..\..\dll\SPI_LQ2090.dll c:\SPI_LQ2090.dll
+]
+Creating command line "C:\DOCUME~1\TANG\LOCALS~1\Temp\RSP47A5.bat"
+
+複製了         1 個檔案。
+
+
+
+<h3>Results</h3>
+SPI_LQ2090.dll - 0 error(s), 21 warning(s)
+</pre>
+</body>
+</html>
